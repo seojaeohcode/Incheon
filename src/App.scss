@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Montagu+Slab&family=Nanum+Gothic:wght@700&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Montagu+Slab&family=Nanum+Gothic:wght@700&family=Song+Myung&display=swap');
+//f12확인가능 공백이유:body margin 8px
+body{
+    padding: 0px; 
+    margin: 0px;
+}
+
+//타이틀 폰트와 가로정렬 + 배경색으로 영역확인 가능 
+.title{
+    display: flex;
+    font-family: 'Song Myung', serif;
+    background-color: rgb(57, 143, 241);
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.backvideo{
+    width: 1902px;
+    height: 966px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sizeup{
+    width: 1902px;
+    height: 966px;   
+}
+//section
+.flexbox{
+    display: flex;
+    height: 966px;
+  }
+
+.sec{
+    height: 2900px;
+  }
+
+.leftimagepos{
+    margin-top: 50px;
+    margin-left: 100px;
+} 
+
+.rightimagepos{
+    margin-top: 100px;
+    margin-left: 600px;
+} 
+
+.textbox{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    outline : solid 6px rgb(0, 183, 255);
+    background-color: rgb(246, 244, 237);
+    text-align: left;
+    font-family: 'Song Myung', serif;
+}
+
+.one{
+    margin-top: 150px;
+    margin-left: 1100px;
+}
+.two{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.textpos{
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+h1,h2,h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+#photo{
+    outline : solid 3px rgb(0, 0, 0);
+}
+.Largetitle{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Song Myung', serif;
+    outline : solid 5px rgb(255, 128, 128);
+}
+
+.foot{
+    background-color: rgb(53, 67, 69);
+    height: 150px;
+    display: flex;
+    font-family: 'Dongle', sans-serif;
+font-family: 'Montagu Slab', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Song Myung', serif;
+font-size: 25px;
+color: rgb(203,147,91);
+text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;  
+}
+
+.linklist{
+    position: absolute;
+    margin-left: 1810px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+font-family: 'Montagu Slab', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Song Myung', serif;
+text-shadow: 5px 5px 5px #000;
+}
+
+.current{
+    background-color: yellowgreen;
+}
+
+.toplist{
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+a:visited { color:white; }
+a:link { color:white; }
+
+.logo{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 20px;
+    color: white;
+}
+
+.tone{
+position: absolute;
+margin-left: 580px;
+margin-top: 55px;
+}
+
+.ttwo{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 55px;
+}
+
+.slogan{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
